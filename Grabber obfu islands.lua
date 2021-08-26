@@ -1,4 +1,4 @@
--- Updated, 08/26/2021 
+-- Updated, 08/26/2021 (Fixed configurations)
 
 _bOtXct4IfCJyXrgy, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
