@@ -5,7 +5,7 @@ local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/Iri
 getgenv().IrisAd = true;
 
 Notification.Notify("BukiHax", "Console version support dropped.", "rbxassetid://7291244104", {
-    Duration = length,
+    Duration = 7,
 
     TitleSettings = {
         TextXAlignment = Enum.TextXAlignment.Center,
@@ -21,7 +21,7 @@ Notification.Notify("BukiHax", "Console version support dropped.", "rbxassetid:/
 })
 
 Notification.Notify("BukiHax", "Executing GUI version..", "rbxassetid://7291244104", {
-    Duration = length,
+    Duration = 7,
 
     TitleSettings = {
         TextXAlignment = Enum.TextXAlignment.Center,
