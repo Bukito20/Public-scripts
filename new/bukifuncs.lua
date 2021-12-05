@@ -308,6 +308,13 @@ function BukiFuncs:Chat(string)
     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(string, "All")
 end
 
+function BukiFuncs:getRandomString(length)
+    local min, max, final = ("a"):byte(), ("z"):byte(), ""
 
+    for i = 1, length do
+        final ..= string.char(math.random(min, max))
+    end
+    return final
+end
 
 return BukiFuncs
