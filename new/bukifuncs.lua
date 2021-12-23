@@ -11,7 +11,6 @@ local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local request = request or http_request or syn.request or fluxus.request
 
-print("yeee ok")
 local BukiFuncs = {}
 
 function BukiFuncs:SendRequest(Url, Method) 
